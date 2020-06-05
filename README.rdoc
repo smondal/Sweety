@@ -1,0 +1,23 @@
+== README
+
+This README is used in conjunction with the Github Readme.md
+
+* Ruby version = 2.4.6
+
+* Rails version = 5.2.0
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Deployment instructions
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.

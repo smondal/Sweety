@@ -1,0 +1,21 @@
+<h4><%= link_to "Back", :back, class: 'btn btn-default' %></h4>
+
+<%= details(@report) %>
+
+<h4>Details</h4>
+<table>
+  <tr>
+    <th>Average</th>
+    <td><%= @report.average_glucose %></td>
+  </tr>
+  <tr>
+    <th>Maximum</th>
+    <td><%= @report.max_glucose %></td>
+  </tr>
+  <tr>
+    <th>Minimum</th>
+    <td><%= @report.min_glucose %></td>
+  </tr>
+</table>
+
+<%= render 'readings_list' %>
