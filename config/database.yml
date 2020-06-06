@@ -47,7 +47,9 @@ test:
 #
 production:
   <<: *default
-  database: Sweety_production
-  url: <%= ENV['DATABASE_URL'] %>
+  database: dkfdvo6bqcima
+  user: uahphjlddyitxu
+  password: 93dd0cb3c336b764573561c2b104ac088d9d886a02730e5ff2a1592f8574e5a4
+  url: postgres://uahphjlddyitxu:93dd0cb3c336b764573561c2b104ac088d9d886a02730e5ff2a1592f8574e5a4@ec2-34-194-198-176.compute-1.amazonaws.com:5432/dkfdvo6bqcima
 #  username: Sweety
 #  password: <%= ENV['SWEETY_DATABASE_PASSWORD'] %>
