@@ -4,12 +4,12 @@
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 #
 default: &default
-  adapter: postgresql
+  adapter: mysql2
   encoding: utf8
   pool: 5
   username: root
   password: 
-  # socket: /tmp/mysql.sock
+  socket: /tmp/mysql.sock
 
 development:
   <<: *default
@@ -46,9 +46,9 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
+  adapter: postgresql
   host: ec2-34-194-198-176.compute-1.amazonaws.com
-  post: 5432
+  post: 5432  
   database: dkfdvo6bqcima
   user: uahphjlddyitxu
   password: 93dd0cb3c336b764573561c2b104ac088d9d886a02730e5ff2a1592f8574e5a4
