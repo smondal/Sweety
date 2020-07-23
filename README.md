@@ -1,4 +1,4 @@
-# Sweety
+# SampleApp
 [![Code Climate](https://codeclimate.com/github/pweisensee/Sweety/badges/gpa.svg)](https://codeclimate.com/github/pweisensee/Sweety)
 
 CodeTheory - a simple web application which enables a user to input and 
